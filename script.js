@@ -38,10 +38,10 @@ async function showGithubUserProfile() {
                 </div>
                 <div class="name_profile">
                     <p><strong>${user.login}</strong></p>
-                    <p><strong>Bio:</strong> Not available</p>
-                    <p><strong>Location:</strong> Not available</p>
-                    <p><strong>Followers:</strong> Not available</p>
-                    <p><strong>Following:</strong> Not available</p>
+                    <p><strong>${user.bio}</strong> Not available</p>
+                    <p><strong>${user.Location}</strong></p>
+                    <p><strong>${user.Followers}</strong></p>
+                    <p><strong>${user.Following}</strong></p>
                     <a href="${user.html_url}" target="_blank">Visit profile</a><br>
                     <button class="deleteBtn">Delete</button>
                 </div>`;
